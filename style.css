@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(22, 70, 38);
+    font-family: gupter, sans-serif; 
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0px;
+}
+button {
+    background-color: rgb(73, 156, 80);
+    font-family: gupter, sans-serif; 
+    color: white;
+    width: 60%;
+    
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display: block;
+}
+main {
+    max-width: 100%;
+    text-align: center;
+}
+img {
+    max-width: 40%;
+    margin-top: 10%;
+}
+.gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  

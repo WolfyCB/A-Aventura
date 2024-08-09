@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <title>A Aventura</title>
+    </head>
+    <body>
+        
+        <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="imagens/floresta.png" alt="e lá vamos nós">
+                <p>Eu estava passeando pela floresta e vi uma carta mostrando um mapa direcionando para um tesouro, fiquei curioso e decidi segui-lo, primeiro caminho leva a direita, mas devo confiar?</p>
+                <button class="btn-proximo" data-proximo="1">direita</button>
+                <button class="btn-proximo" data-proximo="2">esquerda</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <img src="imagens/casa.png" alt="casa malassombrada">
+                <p>Viro para a direita, ando por algumas horas e encontro uma casa abandonada, ela tem uma atmosfera sombria, devo entrar nela?</p>
+                <button class="btn-proximo" data-proximo="3">vasculhar em volta</button>
+                <button class="btn-proximo" data-proximo="4">entrar na casa</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <img src="imagens/rio.png" alt="se tivesse um barco...">
+                <p>tem um rio enorme pra esquerda, acho melhor ir para direita</p>
+                <button class="btn-proximo" data-proximo="1">voltar e ir pra direita</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <img src="imagens/chave.png" alt="como que ele encontrou isso?">
+                <p>encontrei uma chave em um arbusto que estava perto da porta da casa</p>
+                <button class="btn-proximo" data-proximo="5">entrar na casa</button>
+            </div>
+            <div class="passo" id="passo-4">
+                <img src="imagens/casa.png" alt="casa trancada">
+                <p>A porta da casa parece estar trancada</p>
+                <button class="btn-proximo" data-proximo="3">vasculhar em volta</button>
+            </div>
+            <div class="passo" id="passo-5">
+                <img src="imagens/bruxa.png" alt="sim, é a bruxa do 71">
+                <p>Me deparo com uma bruxa assustadora, o que devo fazer!?</p>
+                <button class="btn-proximo" data-proximo="6">chama-la de bruxa</button>
+                <button class="btn-proximo" data-proximo="7">chama-la de senhora</button>
+            </div>
+            <div class="passo" id="passo-6">
+                <img src="imagens/sapo.png" alt="voce virou um sapo">
+                <p>Ela se irrita e te transforma em um sapo. Final ruim.</p>
+            </div>
+            <div class="passo" id="passo-7">
+                <img src="imagens/almoço.png" alt="que almoço delicioso">
+                <p>Ela se surpreende por você ser a primeira pessoa a chama-la de senhora e te chama para um almoço. Final bom.</p>
+            </div>
+
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
